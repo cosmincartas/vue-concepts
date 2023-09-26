@@ -11,6 +11,7 @@ import ConditionalRenderingPage from '@/pages/ConditionalRenderingPage.vue';
 import ListRenderingPage from '@/pages/ListRenderingPage.vue';
 import WatchersPage from '@/pages/WatchersPage.vue';
 import ComponentsPage from '@/pages/ComponentsPage.vue';
+import FormsPage from '@/pages/FormsPage.vue';
 
 export const routes = [
     {
@@ -60,6 +61,12 @@ export const routes = [
         name: 'watchers',
         label: 'Watchers',
         component: WatchersPage,
+    },
+    {
+        path: '/forms',
+        name: 'forms',
+        label: 'Forms',
+        component: FormsPage,
     },
     {
         path: '/components',
