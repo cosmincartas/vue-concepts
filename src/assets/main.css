@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.page-layout {
+    @apply flex flex-col items-center gap-4 p-2;
+}
+
+.cc-button {
+    @apply bg-yellow-500 w-[100px] rounded;
+}
+
+.page-title {
+    @apply text-2xl font-bold;
+}
